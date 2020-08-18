@@ -1,8 +1,6 @@
 import React from 'react';
-import Index from './pages/Index';
+import Routes from './Routes';
 
-const App: React.FC = () => {
-  return <Index />;
-};
+const App: React.FC = () => <Routes />;
 
 export default App;
