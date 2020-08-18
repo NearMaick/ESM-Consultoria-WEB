@@ -1,11 +1,8 @@
 import React from 'react';
+import Index from './pages/Index';
 
 const App: React.FC = () => {
-  return (
-    <div>
-      <h1>Maick Souza</h1>
-    </div>
-  );
+  return <Index />;
 };
 
 export default App;
