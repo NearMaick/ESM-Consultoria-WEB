@@ -58,10 +58,46 @@ export const Description = styled.section`
 
   background: #d00;
 
+  border-radius: 1.6rem;
+
+  h1 {
+    padding: 1.8rem;
+    text-align: center;
+  }
+
   div.desc {
+    width: 100%;
+
+    text-align: justify;
+    line-height: 2.4rem;
+
+    margin: 1.6rem 0;
+
     img {
       width: 30rem;
-      height: 20rem;
+      height: 22rem;
+
+      padding: 1.6rem;
+
+      margin: 0 10%;
+
+      border-radius: 2.4rem;
+    }
+
+    p {
+      margin-bottom: 1.6rem;
+    }
+
+    a {
+      background: #0f0;
+
+      padding: 16px;
+
+      margin: 30%;
+
+      text-decoration: none;
+      color: #fff;
+      border-radius: 15px;
     }
   }
 `;

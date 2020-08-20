@@ -8,13 +8,9 @@ const Menu: React.FC<ToggleOpenModalProps> = ({ open }) => {
   return (
     <StyledMenu open={open}>
       <Link to="/">Home</Link>
+      <Link to="/consulting">Consultoria</Link>
+      <Link to="/regulations">Normas Regulamentares</Link>
       <Link to="/about">Sobre nós</Link>
-      <a href="/">
-        <span role="img" aria-label="contact">
-          📩
-        </span>
-        Contact
-      </a>
     </StyledMenu>
   );
 };

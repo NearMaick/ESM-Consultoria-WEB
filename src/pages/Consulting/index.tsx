@@ -1,9 +1,11 @@
 import React from 'react';
 
+import BurguerMenu from '../../components/BurguerMenu';
 import { Container, Content, Text } from './styles';
 
 const Consulting: React.FC = () => (
   <Container>
+    <BurguerMenu />
     <Content>
       <Text>
         <h1>Consultoria</h1>
@@ -21,7 +23,7 @@ const Consulting: React.FC = () => (
           orçamento.
         </p>
       </Text>
-      <h1>Imagem</h1>
+      <h2>Imagem</h2>
     </Content>
     <Content>
       <Text>
@@ -33,7 +35,7 @@ const Consulting: React.FC = () => (
           orçamento.{' '}
         </p>
       </Text>
-      <h1>Imagem</h1>
+      <h2>Imagem</h2>
     </Content>
     <Content>
       <Text>
@@ -45,7 +47,7 @@ const Consulting: React.FC = () => (
           podermos planejar.
         </p>
       </Text>
-      <h1>Imagem</h1>
+      <h2>Imagem</h2>
     </Content>
   </Container>
 );
