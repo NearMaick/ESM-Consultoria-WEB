@@ -1,14 +1,20 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Main, Description, Container } from './styles';
+
+import BurguerMenu from '../../components/BurguerMenu';
+
+import ImageIndex from '../../assets/imageIndex01.png';
+import Logo from '../../assets/logo.svg';
 
 const Index: React.FC = () => (
   <Container>
+    <BurguerMenu />
     <Main>
       <section>
+        <img src={Logo} alt="Logo" />
         <h1>ESM Consultoria</h1>
-
         <h2>Experiência em treinamentos moldado para seu negócio.</h2>
-
         <h3>
           <strong>Treinamentos de segurança do trabalho à distancia. </strong>
         </h3>
@@ -29,10 +35,10 @@ const Index: React.FC = () => (
             diversas empresas tais como: Souza Cruz, Cadence, CELESC, Petrobrás
             entre outras.
           </p>
-          <a href="/about">Conte-nos mais</a>
+          <Link to="/about">Conte-nos mais</Link>
         </div>
         <div className="desc">
-          <h1>Imagem</h1>
+          <img src={ImageIndex} alt="Edgar consultoria" />
         </div>
       </div>
     </Description>

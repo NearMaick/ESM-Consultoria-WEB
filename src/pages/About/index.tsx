@@ -1,8 +1,13 @@
 import React from 'react';
 import { Container, Content, Text } from './styles';
 
+import BurguerMenu from '../../components/BurguerMenu';
+
+import AboutImage from '../../assets/aboutImage.png';
+
 const About: React.FC = () => (
   <Container>
+    <BurguerMenu />
     <Content>
       <Text>
         <p>
@@ -22,7 +27,7 @@ const About: React.FC = () => (
           de incidentes.
         </p>
       </Text>
-      <h1>Imagem</h1>
+      <img src={AboutImage} alt="Sobre nós" />
     </Content>
   </Container>
 );
