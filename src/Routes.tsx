@@ -16,7 +16,7 @@ const Routes: React.FC = () => (
     <Route path="/regulations" component={Regulations} />
 
     <Route path="/regulations/one-five" component={OneToFive} />
-    <Route path="/six-ten" component={SixToTen} />
+    <Route path="/regulations/six-ten" component={SixToTen} />
   </BrowserRouter>
 );
 
