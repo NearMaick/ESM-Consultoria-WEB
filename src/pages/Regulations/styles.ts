@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   width: 100%;
-  height: 16rem;
+  height: 25rem;
 
   display: flex;
   align-items: center;
@@ -10,14 +10,17 @@ export const Container = styled.div`
 `;
 
 export const Content = styled.div`
-  width: 400px;
-  height: 16rem;
+  /* background: #f00; */
 
-  margin-top: 1.6rem;
+  width: 400px;
+  height: 20rem;
+
+  margin-top: 4.6rem;
 
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(5, 1fr);
+  grid-gap: 1.8rem;
 
   a {
     background: #f0f;
@@ -30,10 +33,8 @@ export const Content = styled.div`
 
     justify-self: center;
 
-    margin: 2px;
-
-    width: 30px;
-    height: 30px;
+    width: 60px;
+    height: 60px;
   }
 `;
 

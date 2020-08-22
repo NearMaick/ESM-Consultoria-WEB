@@ -1,16 +1,24 @@
 import React from 'react';
 
-import { Container, Content, Text } from '../regulations.styles';
+import {
+  Container,
+  Content,
+  Text,
+  TextContainer,
+  TextTitle,
+  TextContent,
+} from '../regulations.styles';
+import Footer from '../../../components/Footer';
 
 const Five: React.FC = () => (
   <Container>
     <Content>
       <Text>
-        <section id="nr05">
+        <section>
           <h1>Norma Regulamentar 05</h1>
           <h2>NR 05 – CIPA (Comissão interna de prevenção de acidentes)</h2>
-          <div className="text">
-            <div className="partone">
+          <TextContainer>
+            <TextTitle>
               <p>
                 Este curso tem como intuito instruir a importância, normas,
                 rotinas e a busca de prevenção de acidentes e doenças
@@ -20,9 +28,8 @@ const Five: React.FC = () => (
                 riscos ambientais.
               </p>
               <h3>Carga horária mínima: 20 horas.</h3>
-              <a href="#top">Voltar ao topo</a>
-            </div>
-            <div className="parttwo">
+            </TextTitle>
+            <TextContent>
               <h3>Conteúdo Programático</h3>
               <ul>
                 <li>Atribuições dos cipeiros;</li>
@@ -44,11 +51,13 @@ const Five: React.FC = () => (
                 <li>Campanhas de segurança;</li>
                 <li>Reunião da cipa - como se realiza.</li>
               </ul>
-            </div>
-          </div>
+            </TextContent>
+            <a href="#top">Voltar ao topo</a>
+          </TextContainer>
         </section>
       </Text>
     </Content>
+    <Footer />
   </Container>
 );
 

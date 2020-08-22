@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { Container, Content, Text } from '../regulations.styles';
+import Footer from '../../../components/Footer';
 
 const Index: React.FC = () => (
   <Container>
@@ -19,6 +20,7 @@ const Index: React.FC = () => (
         </section>
       </Text>
     </Content>
+    <Footer />
   </Container>
 );
 

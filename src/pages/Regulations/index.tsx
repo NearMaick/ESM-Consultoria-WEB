@@ -14,6 +14,16 @@ const Regulations: React.FC = () => (
       <Link to="/regulations/ten">10</Link>
       <Link to="/regulations/eleven">11</Link>
       <Link to="/regulations/twelve">12</Link>
+      <Link to="/regulations/five">05</Link>
+      <Link to="/regulations/six">06</Link>
+      <Link to="/regulations/ten">10</Link>
+      <Link to="/regulations/eleven">11</Link>
+      <Link to="/regulations/twelve">12</Link>
+      <Link to="/regulations/five">05</Link>
+      <Link to="/regulations/six">06</Link>
+      <Link to="/regulations/ten">10</Link>
+      <Link to="/regulations/eleven">11</Link>
+      <Link to="/regulations/twelve">12</Link>
     </Content>
   </Container>
 );
