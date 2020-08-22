@@ -5,6 +5,7 @@ import { Container, Content, Text } from './styles';
 import BurguerMenu from '../../components/BurguerMenu';
 
 import AboutImage from '../../assets/aboutImage.png';
+import Footer from '../../components/Footer';
 
 const About: React.FC = () => (
   <Container>
@@ -31,6 +32,7 @@ const About: React.FC = () => (
       </Text>
       <img src={AboutImage} alt="Sobre nós" />
     </Content>
+    <Footer />
   </Container>
 );
 

@@ -4,7 +4,7 @@ export const Container = styled.div`
   margin-top: 8rem;
 
   width: 500px;
-  height: 100%;
+  /* height: 100%; */
 `;
 
 export const Content = styled.div`

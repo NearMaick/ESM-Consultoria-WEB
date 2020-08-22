@@ -7,6 +7,7 @@ import { Container, Content, Text } from './styles';
 import ImgConsulting from '../../assets/consulting01.png';
 import ImgConsulting02 from '../../assets/consulting02.png';
 import ImgConsulting03 from '../../assets/consulting03.png';
+import Footer from '../../components/Footer';
 
 const Consulting: React.FC = () => (
   <Container>
@@ -54,6 +55,7 @@ const Consulting: React.FC = () => (
       </Text>
       <img src={ImgConsulting03} alt="ESMSeg Consultoria" />
     </Content>
+    <Footer />
   </Container>
 );
 

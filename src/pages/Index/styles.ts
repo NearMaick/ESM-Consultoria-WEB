@@ -20,6 +20,8 @@ export const Main = styled.div`
 
     padding: 0 1.5rem;
 
+    margin-bottom: 1.6rem;
+
     display: flex;
     flex-direction: column;
 
@@ -31,15 +33,13 @@ export const Main = styled.div`
     /* background: var(--color-secundary); */
 
     #image {
-      /* background: #0f0; */
-
       height: 30rem;
       width: 30rem;
 
       display: flex;
       justify-content: center;
 
-      margin-bottom: 1.6rem;
+      margin-bottom: 2.4rem;
 
       img {
         height: 25rem;
@@ -60,7 +60,7 @@ export const Description = styled.section`
   width: 40rem;
   height: 50rem;
 
-  margin-top: 1.5rem;
+  margin: 3rem 0;
   padding: 0 1.5rem;
 
   display: flex;
@@ -68,8 +68,6 @@ export const Description = styled.section`
 
   align-items: center;
   justify-content: center;
-
-  /* background: var(--color-primary); */
 
   border-radius: 1.6rem;
 
@@ -87,12 +85,10 @@ export const Description = styled.section`
     margin: 1.6rem 0;
 
     img {
-      width: 30rem;
-      height: 22rem;
+      width: 100%;
+      height: 30rem;
 
       padding: 1.6rem;
-
-      margin: 0 10%;
 
       border-radius: 2.4rem;
     }
