@@ -6,6 +6,7 @@ import About from './pages/About';
 import Consulting from './pages/Consulting';
 import Regulations from './pages/Regulations';
 
+import IndexRegulation from './pages/Regulations/Index';
 import Five from './pages/Regulations/Five';
 import Six from './pages/Regulations/Six';
 import Ten from './pages/Regulations/Ten';
@@ -19,6 +20,7 @@ const Routes: React.FC = () => (
     <Route path="/consulting" component={Consulting} />
     <Route path="/regulations" component={Regulations} />
 
+    <Route path="/regulations/index" component={IndexRegulation} />
     <Route path="/regulations/five" component={Five} />
     <Route path="/regulations/six" component={Six} />
     <Route path="/regulations/ten" component={Ten} />

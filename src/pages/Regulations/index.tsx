@@ -9,11 +9,11 @@ const Regulations: React.FC = () => (
   <Container>
     <BurguerMenu />
     <Content>
-      <Link to="/regulations/five">NRs parte02</Link>
-      <Link to="/regulations/six">NRs parte02</Link>
-      <Link to="/regulations/ten">NRs parte02</Link>
-      <Link to="/regulations/eleven">NRs parte02</Link>
-      <Link to="/regulations/twelve">NRs parte02</Link>
+      <Link to="/regulations/five">05</Link>
+      <Link to="/regulations/six">06</Link>
+      <Link to="/regulations/ten">10</Link>
+      <Link to="/regulations/eleven">11</Link>
+      <Link to="/regulations/twelve">12</Link>
     </Content>
   </Container>
 );

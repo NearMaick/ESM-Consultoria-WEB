@@ -1,8 +1,6 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  background: #f00;
-
   width: 100%;
   height: 16rem;
 
@@ -12,14 +10,31 @@ export const Container = styled.div`
 `;
 
 export const Content = styled.div`
-  a {
-    width: 10rem;
-    height: 2.4rem;
-  }
+  width: 400px;
+  height: 16rem;
+
+  margin-top: 1.6rem;
 
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(6, 1fr);
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+
+  a {
+    background: #f0f;
+
+    border-radius: 0.5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    justify-self: center;
+
+    margin: 2px;
+
+    width: 30px;
+    height: 30px;
+  }
 `;
 
 export const Text = styled.div``;
