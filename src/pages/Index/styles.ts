@@ -28,10 +28,23 @@ export const Main = styled.div`
 
     border-radius: 1.6rem;
 
-    background: var(--color-primary-lighter);
+    /* background: var(--color-secundary); */
 
-    img {
+    #image {
+      /* background: #0f0; */
+
+      height: 30rem;
+      width: 30rem;
+
+      display: flex;
+      justify-content: center;
+
       margin-bottom: 1.6rem;
+
+      img {
+        height: 25rem;
+        width: 25rem;
+      }
     }
 
     h1,
@@ -56,7 +69,7 @@ export const Description = styled.section`
   align-items: center;
   justify-content: center;
 
-  background: #d00;
+  /* background: var(--color-primary); */
 
   border-radius: 1.6rem;
 
@@ -89,14 +102,13 @@ export const Description = styled.section`
     }
 
     a {
-      background: #0f0;
+      background: var(--color-input-background);
 
       padding: 16px;
 
       margin: 30%;
 
       text-decoration: none;
-      color: #fff;
       border-radius: 15px;
     }
   }

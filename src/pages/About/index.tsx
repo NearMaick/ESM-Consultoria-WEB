@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Container, Content, Text } from './styles';
 
 import BurguerMenu from '../../components/BurguerMenu';
@@ -26,6 +27,7 @@ const About: React.FC = () => (
           instintivamente para uma melhora efetiva nos quadros de acidentes ou
           de incidentes.
         </p>
+        <Link to="/consulting">Conte-nos mais</Link>
       </Text>
       <img src={AboutImage} alt="Sobre nós" />
     </Content>

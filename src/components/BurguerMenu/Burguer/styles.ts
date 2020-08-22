@@ -8,8 +8,8 @@ export const StyledBurger = styled.button<ToggleOpenModalProps>`
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  width: 2rem;
-  height: 2rem;
+  width: 4rem;
+  height: 4rem;
   background: transparent;
   border: none;
   cursor: pointer;
@@ -21,9 +21,9 @@ export const StyledBurger = styled.button<ToggleOpenModalProps>`
   }
 
   div {
-    width: 2rem;
-    height: 0.25rem;
-    background: ${({ open }) => (open ? '#0D0C1D' : '#00f')};
+    width: 4rem;
+    height: 0.4rem;
+    background: ${({ open }) => (open ? '#00f' : 'var(--color-text-base)')};
     border-radius: 10px;
     transition: all 0.3s linear;
     position: relative;

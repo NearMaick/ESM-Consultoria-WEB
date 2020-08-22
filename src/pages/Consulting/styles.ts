@@ -12,20 +12,38 @@ export const Container = styled.div`
 
   align-items: center;
 
+  h1 {
+    text-align: center;
+  }
+
+  p {
+    text-align: justify;
+  }
+
   h1,
   p {
     padding: 1rem;
-    text-align: center;
   }
 `;
 
 export const Content = styled.div`
-  h2 {
-    background: #0f0;
+  /* background: var(--color-secundary); */
 
+  /* height: 60rem; */
+
+  margin-bottom: 20px;
+
+  h2,
+  img {
     width: 40rem;
     height: 30rem;
+
+    margin: 0 1.5%;
+
+    border-radius: 1.8rem;
   }
 `;
 
-export const Text = styled.section``;
+export const Text = styled.section`
+  line-height: 2.4rem;
+`;

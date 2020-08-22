@@ -1,7 +1,12 @@
 import React from 'react';
 
 import BurguerMenu from '../../components/BurguerMenu';
+
 import { Container, Content, Text } from './styles';
+
+import ImgConsulting from '../../assets/consulting01.png';
+import ImgConsulting02 from '../../assets/consulting02.png';
+import ImgConsulting03 from '../../assets/consulting03.png';
 
 const Consulting: React.FC = () => (
   <Container>
@@ -23,7 +28,7 @@ const Consulting: React.FC = () => (
           orçamento.
         </p>
       </Text>
-      <h2>Imagem</h2>
+      <img src={ImgConsulting} alt="ESMSeg Consultoria" />
     </Content>
     <Content>
       <Text>
@@ -35,7 +40,7 @@ const Consulting: React.FC = () => (
           orçamento.{' '}
         </p>
       </Text>
-      <h2>Imagem</h2>
+      <img src={ImgConsulting02} alt="ESMSeg Consultoria" />
     </Content>
     <Content>
       <Text>
@@ -47,7 +52,7 @@ const Consulting: React.FC = () => (
           podermos planejar.
         </p>
       </Text>
-      <h2>Imagem</h2>
+      <img src={ImgConsulting03} alt="ESMSeg Consultoria" />
     </Content>
   </Container>
 );

@@ -12,7 +12,9 @@ const Index: React.FC = () => (
     <BurguerMenu />
     <Main>
       <section>
-        <img src={Logo} alt="Logo" />
+        <div id="image">
+          <img src={Logo} alt="ESM Consultoria" />
+        </div>
         <h1>ESM Consultoria</h1>
         <h2>Experiência em treinamentos moldado para seu negócio.</h2>
         <h3>
