@@ -27,7 +27,7 @@ const About: React.FC = () => (
           instintivamente para uma melhora efetiva nos quadros de acidentes ou
           de incidentes.
         </p>
-        <Link to="/consulting">Conte-nos mais</Link>
+        <Link to="/consulting">Nossa consultoria</Link>
       </Text>
       <img src={AboutImage} alt="Sobre nós" />
     </Content>

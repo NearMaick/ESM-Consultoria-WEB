@@ -6,6 +6,7 @@ import BurguerMenu from '../../components/BurguerMenu';
 
 import ImageIndex from '../../assets/imageIndex01.png';
 import Logo from '../../assets/logo.svg';
+import Footer from '../../components/Footer';
 
 const Index: React.FC = () => (
   <Container>
@@ -44,6 +45,7 @@ const Index: React.FC = () => (
         </div>
       </div>
     </Description>
+    <Footer />
   </Container>
 );
 
