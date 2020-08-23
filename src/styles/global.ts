@@ -31,6 +31,10 @@ export default createGlobalStyle`
     font-size: 60%;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     -webkit-font-smoothing: antialiased;
   }

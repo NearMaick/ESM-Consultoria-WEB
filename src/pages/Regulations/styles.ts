@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   width: 100%;
-  height: 25rem;
+  height: 34rem;
 
   display: flex;
   align-items: center;
@@ -10,12 +10,10 @@ export const Container = styled.div`
 `;
 
 export const Content = styled.div`
-  /* background: #f00; */
-
   width: 400px;
   height: 20rem;
 
-  margin-top: 4.6rem;
+  margin-top: 2rem;
 
   display: grid;
   grid-template-columns: repeat(5, 1fr);

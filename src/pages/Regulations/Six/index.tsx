@@ -1,6 +1,14 @@
 import React from 'react';
 
-import { Container, Content, Text } from '../regulations.styles';
+import {
+  Container,
+  Content,
+  Text,
+  TextContainer,
+  TextTitle,
+  TextContent,
+} from '../regulations.styles';
+import Footer from '../../../components/Footer';
 
 const Six: React.FC = () => (
   <Container>
@@ -9,17 +17,16 @@ const Six: React.FC = () => (
         <section id="nr06">
           <h1>Norma Regulamentar 06</h1>
           <h2>NR 06 – EPI (Equipamento de proteção individual)</h2>
-          <div className="text">
-            <div className="partone">
+          <TextContainer>
+            <TextTitle>
               <p>
                 Este curso tem como intuito instruir as normas técnicas,
                 ressaltar a importância, identificação, manutenção e ciclo de
                 vida geral dos equipamentos de proteção individuais.
               </p>
               <h3>Carga horária mínima: 4 horas.</h3>
-              <a href="#top">Voltar ao topo</a>
-            </div>
-            <div className="parttwo">
+            </TextTitle>
+            <TextContent>
               <h3>Conteúdo Programático</h3>
               <ul>
                 <li>Conceitos e Definições;</li>
@@ -38,11 +45,13 @@ const Six: React.FC = () => (
                 <li>Validade do EPI;</li>
                 <li>Manutenção, Conservação e Limpeza.</li>
               </ul>
-            </div>
-          </div>
+            </TextContent>
+            <a href="#top">Voltar ao topo</a>
+          </TextContainer>
         </section>
       </Text>
     </Content>
+    <Footer />
   </Container>
 );
 

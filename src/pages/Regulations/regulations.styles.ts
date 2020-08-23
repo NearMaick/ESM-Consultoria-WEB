@@ -3,13 +3,13 @@ import styled from 'styled-components';
 export const Container = styled.div`
   background: #f00;
 
-  height: 140rem;
+  height: 150rem;
   width: 600px;
 `;
 
 export const Content = styled.div`
   background: #f0f;
-  height: 170rem;
+  height: 180rem;
 
   margin-bottom: 2.4rem;
 `;
@@ -30,6 +30,17 @@ export const TextContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  a {
+    background: var(--color-input-background);
+
+    padding: 16px;
+
+    margin: 1.6rem;
+
+    text-decoration: none;
+    border-radius: 15px;
+  }
 `;
 
 export const TextTitle = styled.article`
