@@ -84,8 +84,8 @@ const Ten: React.FC = () => (
           </TextContainer>
         </section>
       </Text>
+      <Footer />
     </Content>
-    <Footer />
   </Container>
 );
 

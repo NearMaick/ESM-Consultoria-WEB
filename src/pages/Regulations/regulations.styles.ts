@@ -86,5 +86,6 @@ export const TextContent = styled.article`
 
   li {
     text-align: left;
+    color: var(--color-text-base);
   }
 `;

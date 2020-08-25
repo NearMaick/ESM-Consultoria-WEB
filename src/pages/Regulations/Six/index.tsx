@@ -14,7 +14,7 @@ const Six: React.FC = () => (
   <Container>
     <Content>
       <Text>
-        <section id="nr06">
+        <section>
           <h1>Norma Regulamentar 06</h1>
           <h2>NR 06 – EPI (Equipamento de proteção individual)</h2>
           <TextContainer>
@@ -50,8 +50,8 @@ const Six: React.FC = () => (
           </TextContainer>
         </section>
       </Text>
+      <Footer />
     </Content>
-    <Footer />
   </Container>
 );
 

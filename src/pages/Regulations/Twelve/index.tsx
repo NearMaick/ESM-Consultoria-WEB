@@ -8,12 +8,13 @@ import {
   TextTitle,
   TextContent,
 } from '../regulations.styles';
+import Footer from '../../../components/Footer';
 
 const Twelve: React.FC = () => (
   <Container>
     <Content>
       <Text>
-        <section id="nr12">
+        <section>
           <h1>Norma Regulamentar 12</h1>
           <h2>NR 12 - Segurança de trabalho em máquinas e equipamentos</h2>
           <TextContainer>
@@ -53,6 +54,7 @@ const Twelve: React.FC = () => (
           </TextContainer>
         </section>
       </Text>
+      <Footer />
     </Content>
   </Container>
 );
