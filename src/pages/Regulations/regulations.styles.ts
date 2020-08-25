@@ -1,15 +1,14 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  background: #f00;
+  margin-left: 3rem;
 
-  height: 150rem;
-  width: 600px;
+  height: 230rem;
+  width: 400px;
 `;
 
 export const Content = styled.div`
-  background: #f0f;
-  height: 180rem;
+  height: 200rem;
 
   margin-bottom: 2.4rem;
 `;
@@ -17,7 +16,6 @@ export const Content = styled.div`
 export const Text = styled.div`
   h1,
   h2 {
-    background: #fcc;
     margin: 1.6rem;
   }
 
@@ -44,7 +42,7 @@ export const TextContainer = styled.div`
 `;
 
 export const TextTitle = styled.article`
-  background: #0f0;
+  background: var(--color-secundary);
 
   width: 60%;
   height: 50rem;
@@ -65,10 +63,8 @@ export const TextTitle = styled.article`
 `;
 
 export const TextContent = styled.article`
-  background: #666;
-
   width: 80%;
-  height: 100rem;
+  height: 130rem;
 
   border-radius: 1.6rem;
 
@@ -78,17 +74,17 @@ export const TextContent = styled.article`
   }
 
   ul {
-    background: #eee;
-
-    height: 80rem;
+    background: var(--color-background-dark);
+    border-radius: 1.6rem;
+    padding-left: 1.6rem;
+    height: 120rem;
 
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
   }
 
   li {
-    list-style-type: none;
+    text-align: left;
   }
 `;

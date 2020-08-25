@@ -10,22 +10,11 @@ export default createGlobalStyle`
 
   :root {
     --color-background: #F7EBEC;
-    /* --color-primary-lighter: #9871F5;
-    --color-primary-light: #916BEA; */
+    --color-background-dark: #dbcecf;
     --color-primary: #d45b1b;
-    /* --color-primary-dark: #774DD6; */
-    /* --color-primary-darker: #6842C2; */
     --color-secundary: #04f06a;
-    /* --color-secundary-dark: #04BF58; */
-    /* --color-title-in-primary: #FFFFFF; */
-    /* --color-text-in-primary: #D4C2FF; */
-    /* --color-text-title: #32264D; */
-    /* --color-text-complement: #9C98A6; */
     --color-text-base: #494368;
-    /* --color-line-in-white: #E6E6F0; */
     --color-input-background: #fcba04;
-    /* --color-button-text: #FFFFFF; */
-    /* --color-box-base: #FFFFFF; */
     --color-box-footer: #0d1821;
 
     font-size: 60%;

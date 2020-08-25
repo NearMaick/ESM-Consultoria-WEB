@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
-export const Container = styled.div``;
+export const Container = styled.div`
+  margin-left: 3rem;
+`;
 
 export const RegulationsContent = styled.div`
   width: 100%;
@@ -8,7 +10,6 @@ export const RegulationsContent = styled.div`
 
   display: flex;
   align-items: center;
-  justify-content: center;
 `;
 
 export const Content = styled.div`
@@ -20,8 +21,8 @@ export const Content = styled.div`
   grid-gap: 1.8rem;
 
   a {
-    background: #f0f;
-
+    background: var(--color-primary);
+    color: var(--color-text-base);
     border-radius: 0.5rem;
 
     display: flex;

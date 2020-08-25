@@ -8,6 +8,7 @@ import {
   TextTitle,
   TextContent,
 } from '../regulations.styles';
+import Footer from '../../../components/Footer';
 
 const Ten: React.FC = () => (
   <Container>
@@ -84,6 +85,7 @@ const Ten: React.FC = () => (
         </section>
       </Text>
     </Content>
+    <Footer />
   </Container>
 );
 
