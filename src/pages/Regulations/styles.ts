@@ -1,8 +1,10 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`
+export const Container = styled.div``;
+
+export const RegulationsContent = styled.div`
   width: 100%;
-  height: 34rem;
+  height: 44rem;
 
   display: flex;
   align-items: center;
@@ -10,14 +12,11 @@ export const Container = styled.div`
 `;
 
 export const Content = styled.div`
-  width: 400px;
-  height: 20rem;
-
-  margin-top: 2rem;
+  margin: 8rem 2rem 2rem;
 
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(5, 1fr);
+  grid-template-rows: repeat(4, 1fr);
   grid-gap: 1.8rem;
 
   a {

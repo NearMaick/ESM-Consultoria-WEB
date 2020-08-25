@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  width: 500px;
+  width: 360px;
   height: 100%;
 
   margin-top: 5rem;
@@ -27,18 +27,19 @@ export const Container = styled.div`
 `;
 
 export const Content = styled.div`
-  /* background: var(--color-secundary); */
+  width: 350px;
 
-  /* height: 60rem; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
   margin-bottom: 20px;
 
   h2,
   img {
-    width: 40rem;
+    width: 30rem;
     height: 30rem;
-
-    margin: 0 1.5%;
 
     border-radius: 1.8rem;
   }

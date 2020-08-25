@@ -1,19 +1,26 @@
 import React from 'react';
 
-import { Container, Content, Text } from '../regulations.styles';
+import {
+  Container,
+  Content,
+  Text,
+  TextContainer,
+  TextTitle,
+  TextContent,
+} from '../regulations.styles';
 
 const Eleven: React.FC = () => (
   <Container>
     <Content>
       <Text>
-        <section id="nr11">
+        <section>
           <h1>Norma Regulamentar 11</h1>
           <h2>
             NR 11 - Segurança para transporte, armazenamento, movimentação e
             manuseio de materiais
           </h2>
-          <div className="text">
-            <div className="partone">
+          <TextContainer>
+            <TextTitle>
               <p>
                 Este curso tem como intuito instruir e capacitar para normas
                 técnicas visando os indivíduos que iram trabalhar direta ou
@@ -22,9 +29,8 @@ const Eleven: React.FC = () => (
                 prevenções e condições de trabalho.
               </p>
               <h3>Carga horária mínima: 16 horas.</h3>
-              <a href="#top">Voltar ao topo</a>
-            </div>
-            <div className="parttwo">
+            </TextTitle>
+            <TextContent>
               <h3>Conteúdo Programático</h3>
               <ul>
                 <li>Normas Técnicas;</li>
@@ -37,8 +43,9 @@ const Eleven: React.FC = () => (
                 <li>Operacionalização do Equipamento;</li>
                 <li>Simulação Prática;</li>
               </ul>
-            </div>
-          </div>
+            </TextContent>
+            <a href="#top">Voltar ao topo</a>
+          </TextContainer>
         </section>
       </Text>
     </Content>

@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
   margin-top: 8rem;
 
-  width: 500px;
+  width: 360px;
 `;
 
 export const Content = styled.div`
@@ -15,12 +15,13 @@ export const Content = styled.div`
     text-align: justify;
     padding: 1rem;
     line-height: 2.4rem;
+    margin-bottom: 1.6rem;
   }
 
   img {
     padding: 1rem;
 
-    width: 40rem;
+    width: 36rem;
     height: 50rem;
     border-radius: 1.8rem;
   }
@@ -30,11 +31,21 @@ export const Content = styled.div`
 
     padding: 16px;
 
-    margin: 30%;
+    /* margin: 0 auto; */
+    /* margin-left: 9.3rem; */
 
     text-decoration: none;
     border-radius: 15px;
   }
 `;
 
-export const Text = styled.section``;
+export const Text = styled.section`
+  div {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: -1.6rem;
+  }
+`;

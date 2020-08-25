@@ -1,16 +1,23 @@
 import React from 'react';
 
-import { Container, Content, Text } from '../regulations.styles';
+import {
+  Container,
+  Content,
+  Text,
+  TextContainer,
+  TextTitle,
+  TextContent,
+} from '../regulations.styles';
 
 const Ten: React.FC = () => (
   <Container>
     <Content>
       <Text>
-        <section id="nr10">
+        <section>
           <h1>Norma Regulamentar 10</h1>
           <h2>NR 10 – Segurança em instalações elétricas</h2>
-          <div className="text">
-            <div className="partone">
+          <TextContainer>
+            <TextTitle>
               <p>
                 Este curso tem como intuito instruir e capacitar para normas
                 técnicas visando os indivíduos que iram trabalhar direta ou
@@ -18,9 +25,8 @@ const Ten: React.FC = () => (
                 nível industrial ou comercial.
               </p>
               <h3>Carga horária mínima: 40 horas.</h3>
-              <a href="#top">Voltar ao topo</a>
-            </div>
-            <div className="parttwo">
+            </TextTitle>
+            <TextContent>
               <h3>Conteúdo Programático</h3>
               <ul>
                 <li>Apresentação da Norma NR 10;</li>
@@ -72,8 +78,9 @@ const Ten: React.FC = () => (
                 <li>Documentação de Instalações Elétricas;</li>
                 <li>Normas ABNT sobre Instalações Elétricas.</li>
               </ul>
-            </div>
-          </div>
+            </TextContent>
+            <a href="#top">Voltar ao topo</a>
+          </TextContainer>
         </section>
       </Text>
     </Content>

@@ -38,7 +38,9 @@ const Index: React.FC = () => (
             diversas empresas tais como: Souza Cruz, Cadence, CELESC, Petrobrás
             entre outras.
           </p>
-          <Link to="/about">Conte-nos mais</Link>
+          <div>
+            <Link to="/about">Conte-nos mais</Link>
+          </div>
         </div>
         <div className="desc">
           <img src={ImageIndex} alt="Edgar consultoria" />

@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  width: 500px;
-  height: 100%;
+  width: 400px;
+  /* height: 100%; */
 
   margin-top: 5rem;
 
@@ -15,12 +15,12 @@ export const Container = styled.div`
 
 export const Main = styled.div`
   section {
-    width: 40rem;
+    width: 35rem;
     height: 50rem;
 
     padding: 0 1.5rem;
 
-    margin-bottom: 1.6rem;
+    margin-bottom: 9rem;
 
     display: flex;
     flex-direction: column;
@@ -33,7 +33,7 @@ export const Main = styled.div`
     /* background: var(--color-secundary); */
 
     #image {
-      height: 30rem;
+      height: 35rem;
       width: 30rem;
 
       display: flex;
@@ -57,7 +57,7 @@ export const Main = styled.div`
 `;
 
 export const Description = styled.section`
-  width: 40rem;
+  width: 35rem;
   height: 50rem;
 
   margin: 3rem 0;
@@ -82,13 +82,12 @@ export const Description = styled.section`
     text-align: justify;
     line-height: 2.4rem;
 
-    margin: 1.6rem 0;
-
     img {
       width: 100%;
       height: 30rem;
 
       padding: 1.6rem;
+      margin-bottom: 6rem;
 
       border-radius: 2.4rem;
     }
@@ -97,12 +96,17 @@ export const Description = styled.section`
       margin-bottom: 1.6rem;
     }
 
+    div {
+      width: 100%;
+
+      display: flex;
+      justify-content: center;
+    }
+
     a {
       background: var(--color-input-background);
 
       padding: 16px;
-
-      margin: 30%;
 
       text-decoration: none;
       border-radius: 15px;
