@@ -4,6 +4,11 @@ export const Container = styled.div`
   margin-top: 8rem;
 
   width: 360px;
+
+  @media (min-width: 900px) {
+    width: 900px;
+    margin-top: 8rem;
+  }
 `;
 
 export const Content = styled.div`
@@ -31,11 +36,12 @@ export const Content = styled.div`
 
     padding: 16px;
 
-    /* margin: 0 auto; */
-    /* margin-left: 9.3rem; */
-
     text-decoration: none;
     border-radius: 15px;
+  }
+
+  @media (min-width: 900px) {
+    flex-direction: row;
   }
 `;
 

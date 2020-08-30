@@ -18,6 +18,14 @@ export const Content = styled.footer`
   align-items: center;
   justify-content: center;
 
+  p {
+    width: 250px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
   p,
   strong {
     color: #fff;
@@ -25,6 +33,10 @@ export const Content = styled.footer`
 
   strong {
     font-weight: bold;
+  }
+
+  @media (min-width: 900px) {
+    flex-direction: row;
   }
 `;
 
@@ -38,6 +50,10 @@ export const Contact = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+
+  @media (min-width: 900px) {
+    height: 50%;
+  }
 
   #contents {
     height: 100px;

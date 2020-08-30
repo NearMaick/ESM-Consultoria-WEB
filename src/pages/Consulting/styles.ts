@@ -24,6 +24,11 @@ export const Container = styled.div`
   p {
     padding: 1rem;
   }
+
+  @media (min-width: 900px) {
+    width: 900px;
+    margin-top: 6rem;
+  }
 `;
 
 export const Content = styled.div`
@@ -42,6 +47,11 @@ export const Content = styled.div`
     height: 30rem;
 
     border-radius: 1.8rem;
+  }
+
+  @media (min-width: 900px) {
+    width: 100%;
+    flex-direction: row;
   }
 `;
 

@@ -35,6 +35,10 @@ export default createGlobalStyle`
 
     display: flex;
     justify-content: center;
+
+    @media (min-width: 900px) {
+      font-size: 1.8rem;
+    }
   }
 
   h1, h2, h3, h4, h5, h6, strong, a, p {

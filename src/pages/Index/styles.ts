@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   width: 400px;
-  /* height: 100%; */
 
   margin-top: 5rem;
 
@@ -11,6 +10,11 @@ export const Container = styled.div`
   justify-content: center;
 
   align-items: center;
+
+  @media (min-width: 900px) {
+    width: 900px;
+    margin-top: 6rem;
+  }
 `;
 
 export const Main = styled.div`
@@ -29,8 +33,6 @@ export const Main = styled.div`
     justify-content: center;
 
     border-radius: 1.6rem;
-
-    /* background: var(--color-secundary); */
 
     #image {
       height: 35rem;
@@ -54,6 +56,24 @@ export const Main = styled.div`
       text-align: center;
     }
   }
+
+  @media (min-width: 900px) {
+    width: 900px;
+    margin-top: 6rem;
+
+    display: flex;
+    justify-content: center;
+
+    h1,
+    h2,
+    h3 {
+      width: 70rem;
+    }
+
+    h1 {
+      margin-bottom: 2.4rem;
+    }
+  }
 `;
 
 export const Description = styled.section`
@@ -74,6 +94,14 @@ export const Description = styled.section`
   h1 {
     padding: 1.8rem;
     text-align: center;
+  }
+
+  div.description {
+    @media (min-width: 900px) {
+      width: 900px;
+      display: flex;
+      flex-direction: row;
+    }
   }
 
   div.desc {
