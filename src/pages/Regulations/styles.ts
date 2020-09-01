@@ -44,5 +44,3 @@ export const Content = styled.div`
     grid-template-columns: repeat(10, 1fr);
   }
 `;
-
-export const Text = styled.div``;

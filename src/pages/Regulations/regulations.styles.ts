@@ -65,7 +65,7 @@ export const TextTitle = styled.article`
   background: var(--color-secundary);
 
   width: 60%;
-  height: 50rem;
+  height: 60rem;
 
   margin: 1.6rem 0;
   padding: 0 1.6rem;
