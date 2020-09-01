@@ -19,7 +19,9 @@ export const Content = styled.footer`
   justify-content: center;
 
   p {
-    width: 250px;
+    width: 300px;
+
+    margin-bottom: 1.6rem;
 
     display: flex;
     align-items: center;
@@ -33,6 +35,7 @@ export const Content = styled.footer`
 
   strong {
     font-weight: bold;
+    font-size: 2.4rem;
   }
 
   @media (min-width: 900px) {
@@ -44,8 +47,6 @@ export const Contact = styled.div`
   width: 100%;
   height: 40%;
 
-  margin-bottom: 5%;
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -56,7 +57,10 @@ export const Contact = styled.div`
   }
 
   #contents {
+    width: 80%;
     height: 100px;
+
+    margin: 1.6rem;
 
     display: flex;
     flex-direction: column;
@@ -75,7 +79,7 @@ export const Socials = styled.div`
   justify-content: space-evenly;
 
   #contents {
-    width: 50%;
+    width: 70%;
     height: 100px;
 
     display: flex;

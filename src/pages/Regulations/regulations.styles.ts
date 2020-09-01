@@ -29,7 +29,8 @@ export const Content = styled.div`
 
 export const Text = styled.div`
   h1,
-  h2 {
+  h2,
+  p {
     margin: 1.6rem;
     text-align: center;
   }

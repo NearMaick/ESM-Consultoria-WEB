@@ -21,7 +21,7 @@ const About: React.FC = () => (
           para os alunos e colaboradores e o público em geral, sempre trazendo a
           segurança e a responsabilidade em primeiro lugar, com temas atuais e
           íntegros, mas com fácil entendimento e com muita empatia, para um
-          melhor link entre os instrutores e os participantes(alunos e
+          melhor link entre os instrutores e os participantes (alunos e
           colaboradores). Com isso visamos uma melhora na cultura da segurança e
           nas atividades com o uso corretos dos equipamentos e das técnicas de
           um sistema de gestão de segurança integrada, quase que,

@@ -21,7 +21,7 @@ const Ten: React.FC = () => (
             <TextTitle>
               <p>
                 Este curso tem como intuito instruir e capacitar para normas
-                técnicas visando os indivíduos que iram trabalhar direta ou
+                técnicas visando os indivíduos que irão trabalhar direta ou
                 indiretamente com instalações e serviços elétricos quer seja em
                 nível industrial ou comercial.
               </p>

@@ -30,7 +30,7 @@ export default createGlobalStyle`
 
   body, input, button {
     background: var(--color-background);
-    font-family: serif;
+    font-family: 'Inria Serif', serif;
     font-size: 1.6rem;
 
     display: flex;

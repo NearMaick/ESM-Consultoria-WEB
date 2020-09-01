@@ -24,7 +24,7 @@ const Eleven: React.FC = () => (
             <TextTitle>
               <p>
                 Este curso tem como intuito instruir e capacitar para normas
-                técnicas visando os indivíduos que iram trabalhar direta ou
+                técnicas visando os indivíduos que irão trabalhar direta ou
                 indiretamente com transporte, armazenamento, movimentação e
                 manuseio de materiais, buscando apresentar seus riscos,
                 prevenções e condições de trabalho.
