@@ -11,8 +11,8 @@ export default createGlobalStyle`
   :root {
     --color-background: #F7EBEC;
     --color-background-dark: #dbcecf;
-    --color-primary: #d45b1b;
-    --color-secundary: #04f06a;
+    --color-primary: #db8e65;
+    --color-secundary: #8ef5af;
     --color-text-base: #494368;
     --color-input-background: #fcba04;
     --color-box-footer: #0d1821;

@@ -20,14 +20,13 @@ export const Container = styled.div`
     text-align: justify;
   }
 
-  h1,
-  p {
-    padding: 1rem;
-  }
-
   @media (min-width: 900px) {
     width: 900px;
     margin-top: 6rem;
+  }
+
+  @media (min-width: 1600px) {
+    width: 1600px;
   }
 `;
 
@@ -40,6 +39,11 @@ export const Content = styled.div`
   justify-content: center;
 
   margin-bottom: 20px;
+
+  h1,
+  p {
+    padding: 2.4rem;
+  }
 
   h2,
   img {

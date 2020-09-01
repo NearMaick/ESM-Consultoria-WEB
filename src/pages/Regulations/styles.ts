@@ -10,6 +10,11 @@ export const RegulationsContent = styled.div`
 
   display: flex;
   align-items: center;
+
+  @media (min-width: 900px) {
+    height: 24rem;
+    justify-content: center;
+  }
 `;
 
 export const Content = styled.div`
@@ -17,7 +22,7 @@ export const Content = styled.div`
 
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   grid-gap: 1.8rem;
 
   a {
@@ -33,6 +38,10 @@ export const Content = styled.div`
 
     width: 60px;
     height: 60px;
+  }
+
+  @media (min-width: 900px) {
+    grid-template-columns: repeat(10, 1fr);
   }
 `;
 
