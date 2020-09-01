@@ -1,4 +1,4 @@
-# Proffy
+# ESMSeg
 
 ![Screenshot 1](/src/assets/screenshots/ESMSeg01.gif)
 ![Screenshot 2](/src/assets/screenshots/ESMSeg02.gif)
