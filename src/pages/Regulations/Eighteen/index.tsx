@@ -44,7 +44,10 @@ const Eighteen: React.FC = () => (
                 <li>Responsabilidade.</li>
               </ul>
             </TextContent>
-            <a href="#top">Voltar ao topo</a>
+            <div>
+              <a href="#top">Voltar ao topo</a>
+              <a href="#none">Ir ao vídeo</a>
+            </div>
           </TextContainer>
         </section>
       </Text>

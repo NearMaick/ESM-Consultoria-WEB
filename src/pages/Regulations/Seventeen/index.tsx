@@ -61,7 +61,10 @@ const Seventeen: React.FC = () => (
                 <li>Operadores de Telemarketing - Outras Disposições.</li>
               </ul>
             </TextContent>
-            <a href="#top">Voltar ao topo</a>
+            <div>
+              <a href="#top">Voltar ao topo</a>
+              <a href="#none">Ir ao vídeo</a>
+            </div>
           </TextContainer>
         </section>
       </Text>

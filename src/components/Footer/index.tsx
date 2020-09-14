@@ -11,13 +11,13 @@ const Footer: React.FC = () => {
           <div>
             <strong>Entre em contato conosco</strong>
           </div>
-          <div id="contents">
+          <div>
             <p>
               <FiPhone color={'#F7EBEC'} size={36} /> +55 47 99191-9241
             </p>
-            <p>
+            <a href="mailto:contato@emseg.com.br">
               <FiMail color={'#F7EBEC'} size={36} /> contato@emseg.com.br
-            </p>
+            </a>
           </div>
         </Contact>
         <Socials>
@@ -25,7 +25,9 @@ const Footer: React.FC = () => {
             <strong>Redes Sociais</strong>
           </div>
           <div id="contents">
-            <FiFacebook color={'#F7EBEC'} size={48} />
+            <a href="https://www.facebook.com/esmseg">
+              <FiFacebook color={'#F7EBEC'} size={48} />
+            </a>
             <FiInstagram color={'#F7EBEC'} size={48} />
           </div>
         </Socials>

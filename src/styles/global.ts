@@ -14,7 +14,7 @@ export default createGlobalStyle`
     --color-primary: #db8e65;
     --color-secundary: #8ef5af;
     --color-text-base: #494368;
-    --color-input-background: #fcba04;
+    --color-input-background: #ebc634;
     --color-box-footer: #0d1821;
 
     font-size: 60%;

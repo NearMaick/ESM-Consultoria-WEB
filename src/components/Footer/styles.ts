@@ -30,7 +30,7 @@ export const Content = styled.footer`
 
   p,
   strong {
-    color: #fff;
+    color: #f7ebec;
   }
 
   strong {
@@ -56,14 +56,14 @@ export const Contact = styled.div`
     height: 50%;
   }
 
-  #contents {
-    width: 80%;
-    height: 100px;
+  a {
+    color: #f7ebec;
 
-    margin: 1.6rem;
+    width: 300px;
+
+    margin-bottom: 1.6rem;
 
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: space-between;
   }

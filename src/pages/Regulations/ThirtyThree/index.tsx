@@ -47,7 +47,10 @@ const ThirtyThree: React.FC = () => (
                 <li>Seleção dos equipamentos e seu correto uso;</li>
               </ul>
             </TextContent>
-            <a href="#top">Voltar ao topo</a>
+            <div>
+              <a href="#top">Voltar ao topo</a>
+              <a href="#none">Ir ao vídeo</a>
+            </div>
           </TextContainer>
         </section>
       </Text>
