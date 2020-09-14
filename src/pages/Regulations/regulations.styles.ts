@@ -112,6 +112,13 @@ export const TextContent = styled.article`
     color: var(--color-text-base);
   }
 
+  a {
+    margin: 2.6rem 25% 0;
+
+    display: flex;
+    justify-content: center;
+  }
+
   @media (min-width: 1600px) {
     width: 50%;
   }

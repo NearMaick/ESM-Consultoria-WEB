@@ -43,12 +43,10 @@ const Eleven: React.FC = () => (
                 <li>Utilização e Segurança do Equipamento;</li>
                 <li>Operacionalização do Equipamento;</li>
                 <li>Simulação Prática;</li>
+                <a href="#none">Ir ao vídeo</a>
               </ul>
             </TextContent>
-            <div>
-              <a href="#top">Voltar ao topo</a>
-              <a href="#none">Ir ao vídeo</a>
-            </div>
+            <a href="#top">Voltar ao topo</a>
           </TextContainer>
         </section>
       </Text>

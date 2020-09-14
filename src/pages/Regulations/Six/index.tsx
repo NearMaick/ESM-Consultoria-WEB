@@ -44,12 +44,10 @@ const Six: React.FC = () => (
                 <li>EPI para Proteção Contra Quedas com Diferença de Nível.</li>
                 <li>Validade do EPI;</li>
                 <li>Manutenção, Conservação e Limpeza.</li>
+                <a href="#none">Ir ao vídeo</a>
               </ul>
             </TextContent>
-            <div>
-              <a href="#top">Voltar ao topo</a>
-              <a href="#none">Ir ao vídeo</a>
-            </div>
+            <a href="#top">Voltar ao topo</a>
           </TextContainer>
         </section>
       </Text>

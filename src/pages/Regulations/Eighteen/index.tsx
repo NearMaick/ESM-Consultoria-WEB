@@ -42,12 +42,10 @@ const Eighteen: React.FC = () => (
                 <li>Instalações elétricas;</li>
                 <li>Noções de Primeiros socorros;</li>
                 <li>Responsabilidade.</li>
+                <a href="#none">Ir ao vídeo</a>
               </ul>
             </TextContent>
-            <div>
-              <a href="#top">Voltar ao topo</a>
-              <a href="#none">Ir ao vídeo</a>
-            </div>
+            <a href="#top">Voltar ao topo</a>
           </TextContainer>
         </section>
       </Text>

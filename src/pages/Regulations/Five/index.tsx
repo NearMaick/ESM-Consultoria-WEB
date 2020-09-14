@@ -50,11 +50,11 @@ const Five: React.FC = () => (
                 <li>Noções sobre aids;</li>
                 <li>Campanhas de segurança;</li>
                 <li>Reunião da cipa - como se realiza.</li>
+                <a href="#none">Ir ao vídeo</a>
               </ul>
             </TextContent>
             <div>
               <a href="#top">Voltar ao topo</a>
-              <a href="#none">Ir ao vídeo</a>
             </div>
           </TextContainer>
         </section>

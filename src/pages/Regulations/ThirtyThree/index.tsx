@@ -45,12 +45,10 @@ const ThirtyThree: React.FC = () => (
                 </li>
                 <li>Técnicas de ventilação e uso de EPR;</li>
                 <li>Seleção dos equipamentos e seu correto uso;</li>
+                <a href="#none">Ir ao vídeo</a>
               </ul>
             </TextContent>
-            <div>
-              <a href="#top">Voltar ao topo</a>
-              <a href="#none">Ir ao vídeo</a>
-            </div>
+            <a href="#top">Voltar ao topo</a>
           </TextContainer>
         </section>
       </Text>

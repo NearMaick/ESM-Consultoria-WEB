@@ -48,12 +48,10 @@ const Twelve: React.FC = () => (
                 <li>Permissão de trabalho;</li>
                 <li>Sistemas de bloqueio durante operações;</li>
                 <li>Simulação Prática;</li>
+                <a href="#none">Ir ao vídeo</a>
               </ul>
             </TextContent>
-            <div>
-              <a href="#top">Voltar ao topo</a>
-              <a href="#none">Ir ao vídeo</a>
-            </div>
+            <a href="#top">Voltar ao topo</a>
           </TextContainer>
         </section>
       </Text>

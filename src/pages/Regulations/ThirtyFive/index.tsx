@@ -48,12 +48,10 @@ const ThirtyFive: React.FC = () => (
                   técnicas de resgate e primeiros socorros;
                 </li>
                 <li>Simulação prática.</li>
+                <a href="#none">Ir ao vídeo</a>
               </ul>
             </TextContent>
-            <div>
-              <a href="#top">Voltar ao topo</a>
-              <a href="#none">Ir ao vídeo</a>
-            </div>
+            <a href="#top">Voltar ao topo</a>
           </TextContainer>
         </section>
       </Text>
