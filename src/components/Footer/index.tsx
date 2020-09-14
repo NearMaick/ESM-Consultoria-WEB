@@ -25,13 +25,10 @@ const Footer: React.FC = () => {
             <strong>Redes Sociais</strong>
           </div>
           <div id="contents">
-            <a target="_blank" href="https://www.facebook.com/esmseg">
+            <a href="https://www.facebook.com/esmseg">
               <FiFacebook color={'#F7EBEC'} size={48} />
             </a>
-            <a
-              target="_blank"
-              href="https://www.instagram.com/meloedgarsilvade/"
-            >
+            <a href="https://www.instagram.com/meloedgarsilvade/">
               <FiInstagram color={'#F7EBEC'} size={48} />
             </a>
           </div>
