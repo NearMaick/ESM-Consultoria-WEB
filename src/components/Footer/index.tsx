@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { FiFacebook, FiInstagram, FiPhone, FiMail } from 'react-icons/fi';
 
 import { Container, Content, Contact, Socials } from './styles';
@@ -25,12 +26,18 @@ const Footer: React.FC = () => {
             <strong>Redes Sociais</strong>
           </div>
           <div id="contents">
-            <a href="https://www.facebook.com/esmseg">
+            <Link
+              to={{ pathname: 'https://www.facebook.com/esmseg' }}
+              target="_blank"
+            >
               <FiFacebook color={'#F7EBEC'} size={48} />
-            </a>
-            <a href="https://www.instagram.com/meloedgarsilvade/">
+            </Link>
+            <Link
+              to={{ pathname: 'https://www.instagram.com/meloedgarsilvade/' }}
+              target="_blank"
+            >
               <FiInstagram color={'#F7EBEC'} size={48} />
-            </a>
+            </Link>
           </div>
         </Socials>
       </Content>
